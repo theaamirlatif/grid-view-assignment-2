@@ -1,4 +1,4 @@
-# Assignemt of HTML, CSS (using grid view)
+# Assignemt no 2 of HTML, CSS (using grid view)
 
 6 multiple pages
 
