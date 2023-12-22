@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Comments and Review Page</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="tag-nav">
+            <h1>Green Oman doeveloper (GOP)</h1>
+          </div>
+    
+          <div class="logo-container">
+            <img src="imgs/image1.png" alt="Logo" />
+            <div class="txt-logo">
+              <h1>Go Green Day</h1>
+            </div>
+          </div>
+      <div class="tag-text">
+        <p>How was your experience? share your experience with us here:</p>
+      </div>
+      <div class="tag-nav">
+        <h1>Home about Climate change Review and comments</h1>
+      </div>
+      <!-- ----------------comment field-------------- -->
+      <div class="main-cont">
+          <div class="comment-container">
+            <label for="comment">Add a Comment:</label>
+            <textarea
+              id="comment"
+              placeholder="Type your comment here..."
+            ></textarea>
+            <button onclick="submitComment()">Submit</button>
+          </div>
+          <div id="submitted-content"></div>
+          <div class="ind-center">
+            <div class="first-img">
+              <img src="imgs/image9.jpeg" alt="fsf" />
+              <img class="img2" src="imgs/image9.jpeg" alt="sfsf" />
+            </div>
+          </div>
+
+      </div>
+
+      <div class="btm-text">Registration, Events, Location</div>
+    </div>
+  </body>
+  <script>
+    function submitComment() {
+      // Get the comment from the textarea
+      var comment = document.getElementById("comment").value;
+
+      // Display the submitted content on the page
+      var submittedContent = document.getElementById("submitted-content");
+      submittedContent.innerHTML =
+        "<p>Submitted Comment:</p><p>" + comment + "</p>";
+
+      // You can add additional logic for handling the comment submission (e.g., sending it to a server).
+    }
+  </script>
+  <script src="javascript.js"></script>
+</html>

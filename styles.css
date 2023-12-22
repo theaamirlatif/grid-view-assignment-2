@@ -1,0 +1,1821 @@
+/* Index css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("imgs/image10.jpeg");
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.txt-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  padding: 10px;
+  color: black;
+}
+
+.txt-logo p {
+  font-size: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.tag-nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-text p {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-nav h1 {
+  width: fit-content;
+  padding: 5px;
+  font-size: 24px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  width: 100%;
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.logo-text h1 {
+  width: 250px;
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+.ind-center {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.gap-div {
+  height: 200px;
+}
+
+.dev-txt {
+  float: right;
+}
+
+.dev-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.first-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.img2 {
+  margin-top: 100px;
+}
+
+.cent-txt {
+  margin: 20px;
+}
+
+.ext-txt {
+  width: fit-content;
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+}
+
+.sec-image {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-image img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 200px;
+}
+
+.left-d h1 {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 30px;
+  margin-top: -100px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.i-btn {
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btm-text {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Events CSS */
+.eve-center {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.eve-first-img {
+  display: grid;
+  grid-template-columns: auto ;
+  display: flex;
+  justify-content: center;
+}
+
+.eve-first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.eve-cent-txt {
+  margin: 20px;
+} 
+
+.event-button-container {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.event-button-container h1 {
+  background-color: aliceblue;
+}
+.event-button {
+  width: 220px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.event-button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btn-double {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+
+
+/* Globale CSS */
+
+.glo-txt {
+  width: 100%;
+}
+
+.glo-txt p {
+  width: 200px;
+}
+
+.glo-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.glo-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  margin-top: 200px;
+  margin-left: -20px;
+  padding: 30px;
+  color: black;
+}
+
+.glo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.glo-cent {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.glo-left {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+}
+
+.glo-img2 {
+  margin-top: 50px;
+}
+
+.glo-right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.glo-right h1{
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+}
+
+.glo-right p{
+  font-size: 25px;
+  margin-left: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.glo-btm {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.glo-btm-lft h1{
+  padding: 10px 0px 10px 50px;
+  background-color: white;
+  color: black;
+}
+
+/* About CSS */
+.about-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.about-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-buttons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-btn {
+  width: auto;
+  height: 40px;
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.more-text {
+  margin: 10px;
+}
+
+.about-btn:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.about-text p {
+  font-size: 25px;
+  margin: 30px 50px;
+  text-align: justify;
+}
+
+.about-text h1 {
+  margin: 30px 50px;
+}
+
+/* Register CSS */
+.register-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.register-buttons {
+  display: grid;
+  text-align: end;
+  grid-template-columns: 1fr;
+}
+
+.register-buttons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.register-btn {
+  width: auto;
+  height: 40px;
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.more-text {
+  margin: 10px;
+}
+
+.register-btn:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.reg-form {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.register-inputs h1 {
+  margin: 20px;
+}
+
+.reg-form a {
+  margin: 20px;
+}
+
+.lf-form {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: auto;
+}
+
+.rt-form {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: auto;
+}
+
+.lf-form label {
+  color: #fff;
+  font-size: 25px;
+}
+
+.lf-form input {
+  width: 200px;
+  padding: 10px 5px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.9);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.rt-form label {
+  color: #fff;
+  font-size: 25px;
+}
+
+.rt-form input {
+  width: 200px;
+  padding: 10px 5px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.9);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Activities CSS */
+.act-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.act-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.act-buttons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.act-btn {
+  width: auto;
+  height: 40px;
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.event-btn {
+  width: auto;
+  height: 60px;
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.act-btn:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.act-text p {
+  font-size: 25px;
+  margin: 30px 50px;
+  text-align: justify;
+}
+
+.act-text h1 {
+  margin: 30px 50px;
+}
+
+.top-imgs img {
+  width: 300px;
+  height: 200px;
+}
+
+.btm-img {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: grid;
+  text-align: start;
+  grid-template-columns: auto auto auto;
+}
+
+.btm-left img {
+  margin-top: 60px;
+  width: 200px;
+  height: 100px;
+}
+
+.btm-right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.text-btn {
+  width: 100%;
+  display: flex;
+}
+
+.btm-right img {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.act-text h1 {
+  font-size: 25px;
+}
+
+.act-text p {
+  font-size: 20px;
+}
+
+/* Comments CSS */
+.cmt-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.cmt-buttons {
+  display: grid;
+  text-align: end;
+  grid-template-columns: 1fr;
+}
+
+.cmt-buttons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cmt-inputs h1 {
+  margin: 20px;
+}
+
+.cmt-btn {
+  width: auto;
+  height: 40px;
+  padding: 10px 50px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cmt-btn:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.per-cmt {
+  margin-left: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.per-cmt i {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.per-cmt p {
+  font-size: 25px;
+}
+
+.fper-cmt {
+  margin-left: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.fper-cmt i {
+  margin-top: 25px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fper-cmt p {
+  font-size: 25px;
+}
+
+.cmt-add {
+  width: 100%;
+  flex-direction: column;
+}
+
+.cmt-add p {
+  margin: 20px;
+}
+
+.awen {
+  height: 250px;
+}
+
+/* ----------comment field--------- */
+.comment-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitted-content {
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.main-cont {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/* --------------------form page css--------------------- */
+
+.form-container {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #777272;
+  margin: auto; /* Center the form horizontally */
+  margin-top: 100px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  grid-column: span 2; /* Make the button span both columns */
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* =--------------------------------------climate page------------------ */
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.middle-column {
+  flex: 1;
+  text-align: center;
+  padding: 20px; /* Add padding to the middle column */
+}
+.img-div {
+  display: grid;
+  justify-content: end;
+  height: 400px;
+}
+.img-div img {
+  width: 100%;
+  height: 50%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 360px) {
+  /* Index css */
+
+.txt-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  padding: 10px;
+  color: black;
+}
+
+.txt-logo p {
+  font-size: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.tag-nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-text p {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-nav h1 {
+  width: fit-content;
+  padding: 5px;
+  font-size: 24px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  width: 100%;
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.logo-text h1 {
+  width: 250px;
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+.ind-center {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.gap-div {
+  height: 200px;
+}
+
+.dev-txt {
+  float: right;
+}
+
+.dev-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.first-img {
+  display: grid;
+  grid-template-columns: auto ;
+  display: flex;
+  justify-content: center;
+}
+
+.first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.img2 {
+  margin-top: 100px;
+}
+
+.cent-txt {
+  margin: 20px;
+}
+
+.ext-txt {
+  width: fit-content;
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+}
+
+.sec-image img {
+  margin-top: 100px;
+  width: 100px;
+  height: 200px;
+}
+
+.left-d h1 {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 30px;
+  margin-top: -100px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.i-btn {
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btm-text {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Events CSS */
+.eve-center {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.eve-first-img {
+  display: grid;
+  grid-template-columns: auto ;
+  display: flex;
+  justify-content: center;
+}
+
+.eve-first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.eve-cent-txt {
+  margin: 20px;
+} 
+
+.event-button-container {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.event-button-container h1 {
+  background-color: aliceblue;
+}
+.event-button {
+  width: 220px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.event-button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btn-double {
+  display: grid;
+  grid-template-columns: auto ;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Globale CSS */
+
+.glo-txt {
+  width: 100%;
+}
+
+.glo-txt p {
+  width: 200px;
+}
+
+.glo-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.glo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.glo-container img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.glo-logo h1 {
+  background-color: #fff;
+  font-size: 35px;
+  color: black;
+}
+
+.glo-cent {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.glo-left {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+}
+
+.glo-img2 {
+  margin-top: 50px;
+}
+
+.glo-right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.glo-right h1{
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+}
+
+.glo-right p{
+  font-size: 25px;
+  margin-left: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.glo-btm {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.glo-btm-lft h1{
+  padding: 10px 0px 10px 50px;
+  background-color: white;
+  color: black;
+}
+
+/* ----------comment field--------- */
+.comment-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitted-content {
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.main-cont {
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 361px) and (min-width: 601px) {
+  /* Index css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("imgs/image10.jpeg");
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.txt-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  padding: 10px;
+  color: black;
+}
+
+.txt-logo p {
+  font-size: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.tag-nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-text p {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-nav h1 {
+  width: fit-content;
+  padding: 5px;
+  font-size: 24px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  width: 100%;
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.logo-text h1 {
+  width: 250px;
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+.ind-center {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gap-div {
+  height: 200px;
+}
+
+.dev-txt {
+  float: right;
+}
+
+.dev-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.first-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.img2 {
+  margin-top: 100px;
+}
+
+.cent-txt {
+  margin: 20px;
+}
+
+.ext-txt {
+  width: fit-content;
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+}
+
+.sec-image img {
+  margin-top: 100px;
+  width: 100px;
+  height: 200px;
+}
+
+.left-d h1 {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 30px;
+  margin-top: -100px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.i-btn {
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btm-text {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Events CSS */
+.eve-center {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.eve-first-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.eve-first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.eve-cent-txt {
+  margin: 20px;
+} 
+
+.event-button-container {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.event-button-container h1 {
+  background-color: aliceblue;
+}
+.event-button {
+  width: 220px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.event-button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btn-double {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Globale CSS */
+
+.glo-txt {
+  width: 100%;
+}
+
+.glo-txt p {
+  width: 200px;
+}
+
+.glo-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.glo-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  margin-top: 200px;
+  margin-left: -20px;
+  padding: 30px;
+  color: black;
+}
+
+.glo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.glo-container img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.glo-cent {
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+}
+
+.glo-left {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.glo-img2 {
+  margin-top: 50px;
+}
+
+.glo-right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.glo-right h1{
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+}
+
+.glo-right p{
+  font-size: 25px;
+  margin-left: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.glo-btm {
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.glo-btm-lft h1{
+  padding: 10px 0px 10px 50px;
+  background-color: white;
+  color: black;
+}
+
+/* ----------comment field--------- */
+.comment-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitted-content {
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.main-cont {
+  display: grid;
+  grid-template-columns: auto  ;
+}
+
+
+}
+
+@media screen and (min-width: 602px) and (min-width: 1025px) {
+  /* Index css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("imgs/image10.jpeg");
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.txt-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  padding: 10px;
+  color: black;
+}
+
+.txt-logo p {
+  font-size: 25px;
+  background-color: #fff;
+  color: black;
+}
+
+.tag-nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-text p {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: center;
+}
+.tag-nav h1 {
+  width: fit-content;
+  padding: 5px;
+  font-size: 24px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  width: 100%;
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.logo-text h1 {
+  width: 250px;
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+.ind-center {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gap-div {
+  height: 200px;
+}
+
+.dev-txt {
+  float: right;
+}
+
+.dev-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.first-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.img2 {
+  margin-top: 100px;
+}
+
+.cent-txt {
+  margin: 20px;
+}
+
+.ext-txt {
+  width: fit-content;
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+}
+
+.sec-image img {
+  margin-top: 100px;
+  width: 100px;
+  height: 200px;
+}
+
+.left-d h1 {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 30px;
+  margin-top: -100px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.i-btn {
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(200, 194, 194, 0.69);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btm-text {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Events CSS */
+.eve-center {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.eve-first-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.eve-first-img img {
+  width: 100px;
+  height: 200px;
+  display: flex;
+}
+
+.eve-cent-txt {
+  margin: 20px;
+} 
+
+.event-button-container {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.event-button-container h1 {
+  background-color: aliceblue;
+}
+.event-button {
+  width: 220px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(200, 194, 194, 0.69);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.event-button:hover {
+  background-color: rgba(63, 60, 60, 0.69);
+}
+
+.btn-double {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Globale CSS */
+
+.glo-txt {
+  width: 100%;
+}
+
+.glo-txt p {
+  width: 200px;
+}
+
+.glo-txt h1 {
+  width: fit-content;
+  font-size: 25px;
+  padding: 10px;
+  float: right;
+  color: black;
+  background-color: #fff;
+}
+
+.glo-logo h1 {
+  background-color: #fff;
+  font-size: 55px;
+  margin-top: 200px;
+  margin-left: -20px;
+  padding: 30px;
+  color: black;
+}
+
+.glo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glo-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.glo-cent {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.glo-left {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.glo-img2 {
+  margin-top: 150px;
+}
+
+.glo-right {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.glo-right h1{
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+}
+
+.glo-right p{
+  font-size: 25px;
+  margin-left: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.glo-btm {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.glo-btm-lft h1{
+  padding: 10px 0px 10px 50px;
+  background-color: white;
+  color: black;
+}
+
+/* ----------comment field--------- */
+.comment-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitted-content {
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.main-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+}
